@@ -4,65 +4,67 @@
 
 @layer base {
     :root {
-      --background: 0 0% 100%;
-      --foreground: 210 11.1% 3.53%;
+      /* Palette: Asparagus #7EA172, Cream #EFECE5, White #FFFFFF, Black #000000 */
+      --background: 42 23.8% 91.76%;       /* Cream */
+      --foreground: 0 0% 0%;               /* Black */
 
-      --card: 0 0% 100%;
-      --card-foreground: 210 11.1% 3.53%;
+      --card: 42 23.8% 91.76%;             /* Cream */
+      --card-foreground: 0 0% 0%;          /* Black */
 
-      --popover: 0 0% 100%;
-      --popover-foreground: 210 11.1% 3.53%;
+      --popover: 42 23.8% 91.76%;          /* Cream */
+      --popover-foreground: 0 0% 0%;       /* Black */
 
-      --primary: 0 0% 9%;
-      --primary-foreground: 0 0% 98%;
+      --primary: 105 20% 53.92%;           /* Asparagus */
+      --primary-foreground: 0 0% 100%;     /* White */
 
-      --secondary: 0 0% 96.1%;
-      --secondary-foreground: 0 0% 9%;
+      --secondary: 0 0% 100%;              /* White */
+      --secondary-foreground: 0 0% 0%;     /* Black */
 
-      --muted: 0 0% 96.1%;
-      --muted-foreground: 0 0% 45.1%;
+      --muted: 42 20% 88%;                 /* Subtle Cream */
+      --muted-foreground: 0 0% 40%;        /* Dark gray on Cream */
 
-      --accent: 0 0% 96.1%;
-    --accent-foreground: 0 0% 9%;
+      --accent: 105 20% 53.92%;            /* Asparagus */
+      --accent-foreground: 0 0% 100%;      /* White */
 
+      /* Keeping destructive as a standard red for clarity */
       --destructive: 0 84.2% 60.2%;
-      --destructive-foreground: 0 0% 98%;
+      --destructive-foreground: 0 0% 100%;
 
-      --border: 0 0% 89.8%;
-      --input: 0 0% 89.8%;
-      --ring: 0 0% 3.9%;
+      --border: 42 20% 85%;                /* Cream border */
+      --input: 42 20% 85%;                 /* Cream input */
+      --ring: 105 20% 53.92%;              /* Asparagus focus ring */
 
       --radius: 0.5rem;
     }
 
     .dark {
-      --background: 210 11.1% 3.53%;
-      --foreground: 0 0% 98%;
+      --background: 0 0% 0%;               /* Black */
+      --foreground: 42 23.8% 91.76%;       /* Cream */
 
-      --card: 210 11.1% 3.53%;
-      --card-foreground: 0 0% 98%;
+      --card: 0 0% 0%;                     /* Black */
+      --card-foreground: 42 23.8% 91.76%;  /* Cream */
 
-      --popover: 210 11.1% 3.53%;
-      --popover-foreground: 0 0% 98%;
+      --popover: 0 0% 0%;                  /* Black */
+      --popover-foreground: 42 23.8% 91.76%; /* Cream */
 
-      --primary: 0 0% 98%;
-      --primary-foreground: 0 0% 9%;
+      --primary: 105 20% 53.92%;           /* Asparagus */
+      --primary-foreground: 0 0% 100%;     /* White */
 
-      --secondary: 0 0% 14.9%;
-      --secondary-foreground: 0 0% 98%;
+      --secondary: 0 0% 9%;                /* Near-black */
+      --secondary-foreground: 42 23.8% 91.76%; /* Cream */
 
-      --muted: 0 0% 14.9%;
-      --muted-foreground: 0 0% 63.9%;
+      --muted: 0 0% 14.9%;                 /* Dark gray */
+      --muted-foreground: 42 23.8% 75%;    /* Softer Cream */
 
-      --accent: 0 0% 14.9%;
-      --accent-foreground: 0 0% 98%;
+      --accent: 105 20% 53.92%;            /* Asparagus */
+      --accent-foreground: 0 0% 100%;      /* White */
 
       --destructive: 0 62.8% 30.6%;
-      --destructive-foreground: 0 0% 98%;
+      --destructive-foreground: 0 0% 100%;
 
       --border: 0 0% 14.9%;
       --input: 0 0% 14.9%;
-      --ring: 0 0% 83.1%;
+      --ring: 105 20% 53.92%;              /* Asparagus focus ring */
     }
   }
 

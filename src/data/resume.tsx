@@ -95,9 +95,9 @@ export const DATA = {
   education: [
     {
       school: "SAIT",
-      href: "https://buildspace.so",
+      href: "https://www.sait.ca/programs-and-courses/diplomas/interactive-design-web-design-and-development",
       degree: "IDD - Web Design & Development",
-      logoUrl: "/sait_logo.jpg",
+      logoUrl: "/sait_logo.png",
       start: "2024",
       end: "2026",
     }
@@ -237,5 +237,5 @@ export const DATA = {
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
-    }]
+    }],
 } as const;
