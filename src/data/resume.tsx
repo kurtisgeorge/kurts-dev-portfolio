@@ -1,4 +1,3 @@
-
 import { Icons } from "../components/icons";
 
 import { HomeIcon } from "lucide-react";
@@ -126,7 +125,7 @@ export const DATA = {
         {
           type: "Website",
           href: "https://chatcollect.com",
-          icon: <Icons.globe className="size-3" />,
+          icon: Icons.globe,
         },
       ],
       image: "",
@@ -154,12 +153,12 @@ export const DATA = {
         {
           type: "Website",
           href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
+          icon: Icons.globe,
         },
         {
           type: "Source",
           href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
+          icon: Icons.github,
         },
       ],
       image: "",
@@ -187,12 +186,12 @@ export const DATA = {
         {
           type: "Website",
           href: "https://llm.report",
-          icon: <Icons.globe className="size-3" />,
+          icon: Icons.globe,
         },
         {
           type: "Source",
           href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
+          icon: Icons.github,
         },
       ],
       image: "",
@@ -220,7 +219,7 @@ export const DATA = {
         {
           type: "Website",
           href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
+          icon: Icons.globe,
         },
       ],
       image: "",
